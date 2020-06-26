@@ -4,6 +4,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
+console.log("test")
+
 //Reads file with token
 const info = JSON.parse(fs.readFileSync('./token.JSON'));
 const token = info.token
